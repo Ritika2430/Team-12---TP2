@@ -605,6 +605,76 @@
       </div>
     </div>
   </div>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/chain1.png" alt="">
+        <div class="card-body">
+          <h3 class="text-center"> Chain Serapis</h3>
+          <p class="text-center">585 Yellow Gold</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <h2>£1,100 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/chain2.png" alt="">
+        <div class="card-body">
+          <h3 class="text-center">Chain Bersel</h3>
+          <p class="text-center">585 Yellow Gold</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <h2>£450 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/chain3.png" alt="">
+        <div class="card-body">
+          <h3 class="text-center">Chain Jandi</h3>
+          <p class="text-center">585 Yellow Gold</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <h2>£680 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/chain4.png" alt="">
+        <div class="card-body">
+          <h3 class="text-center">Chain Paperclip and Rolo</h3>
+          <p class="text-center">585 Yellow Gold</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <h2>£630 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <!-- our-collection section -->
 

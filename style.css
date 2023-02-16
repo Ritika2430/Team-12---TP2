@@ -634,6 +634,8 @@
     text-shadow: 0px 1px 1px black;
     letter-spacing: 1px;
     font-weight: bold;
+    
+  
 }
 /* latest products row1 */
 
@@ -808,6 +810,7 @@
     margin-bottom: 0;
     color: white;
     margin-bottom: 40px;
+    
 }
 #footer .footer-top h4{
     font-size: 16px;
