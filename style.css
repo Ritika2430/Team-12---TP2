@@ -447,7 +447,7 @@
 .summer-sale{
     margin-top: 70px;
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -460,6 +460,7 @@
 .summer-sale .img{
     flex: 1 1 300px;
     margin-right: 10px;
+    
 }
 .summer-sale .img img{
     margin-top: 30px;

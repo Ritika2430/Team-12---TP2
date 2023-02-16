@@ -299,11 +299,6 @@
 <!-- other cards -->
 
 
-
-
-
-
-
 <!-- Home content -->
 <section class="summer-sale">
 <div class="content">
