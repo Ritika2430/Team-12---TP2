@@ -17,6 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet"> <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet"> 
+   
+
     <!--Font links-->
 </head>
 
@@ -103,10 +105,34 @@
 </section>
 
 <!-- banner -->
+ 
 
+<!-- landing page Carousel -->
 
+<div class="carousel">
 
+    <div class="carousel__track-container">
+      <ul class="carousel__track">
+        <li class="carousel__slide">
+          <img class="carousel__image" src="./images/carousel4.jpg" alt="">
+        </li>
+        <li class="carousel__slide">
+          <img class="carousel__image" src="./images/carousel2.jpg" alt="">
+        </li>
+        <li class="carousel__slide">
+          <img class="carousel__image" src="./images/carousel3.jpg" alt="">
+        </li>
+      </ul>
+    </div>
 
+    <div class="carousel__nav">
+      <button class="carousel__indicator"></button>
+      <button class="carousel__indicator"></button>
+      <button class="carousel__indicator"></button>
+    </div>
+  </div>
+
+<!-- landing page Carousel -->
 
 
 <!-- products -->
@@ -861,9 +887,8 @@
   </div>
 </footer>
 <!-- fotter -->
-
 <a href="#" class="arrow"><i><img src="./images/arrow.png" alt=""></i></a>
-
+<script src="./script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
