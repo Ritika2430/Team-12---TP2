@@ -22,7 +22,7 @@
                     <?php
                         if(isset($_POST['password']) && isset($_GET['token']))
                         {
-                            require_once($_SERVER['DOCUMENT_ROOT'] . '/shared-files/local_db.php');
+                            require_once($_SERVER['DOCUMENT_ROOT'] . '/scripts/auth/db.php');
                             $hash = password_hash($_POST['password'], PASSWORD_DEFAULT);
                             $query = 'UPDATE users SET password=:password WHERE change_password_token=:token';
                             $sth = $db->prepare($query);

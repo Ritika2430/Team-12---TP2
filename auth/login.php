@@ -13,7 +13,7 @@
             error_reporting(E_ALL);
             if(isset($_POST['id']) && isset($_POST['password']))
             {
-                require_once($_SERVER['DOCUMENT_ROOT'] . '/shared-files/local_db.php');
+                require_once($_SERVER['DOCUMENT_ROOT'] . '/shared-files/db.php');
 
                 $id_type= str_contains($_POST['id'], '@');
                 $query = 'SELECT * FROM users WHERE ' . ($id_type ? 'email' : 'username') . '=:id';

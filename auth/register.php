@@ -40,7 +40,7 @@
             if(isset($_POST['forename']) && isset($_POST['surname']) && isset($_POST['username']) && isset($_POST['email']) && isset($_POST['password']))
             {
                 /* Stage 0: Connect to database */
-                require_once($_SERVER['DOCUMENT_ROOT'] . '/shared-files/local_db.php');
+                require_once($_SERVER['DOCUMENT_ROOT'] . '/auth/scripts/db.php');
 
                 /* Stage 0.5: Save form fields in session */
                 $_SESSION['register']['forename'] = $_POST['forename'];

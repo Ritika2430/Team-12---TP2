@@ -2,7 +2,7 @@
 session_start();
 if(isset($_GET['token']))
 {
-    require_once($_SERVER['DOCUMENT_ROOT'] . '/shared-files/local_db.php');
+    require_once($_SERVER['DOCUMENT_ROOT'] . '/auth/scripts/db.php');
     $query = 'SELECT verification_token, verified FROM user WHERE verification_token=:token';
     $sth = $db->prepare($query);
     $sth->bindParam(':token', $_GET['token']);

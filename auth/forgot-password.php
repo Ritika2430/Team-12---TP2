@@ -24,7 +24,7 @@
                         {
                             if(isset($_POST['email']))
                             {
-                                require_once($_SERVER['DOCUMENT_ROOT'] . '/shared-files/local_db.php');
+                                require_once($_SERVER['DOCUMENT_ROOT'] . '/auth/scripts/db.php');
                                 $query = 'SELECT email FROM users';
                                 $sth = $db->prepare($query);
                                 $sth->execute();
