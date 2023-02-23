@@ -79,14 +79,6 @@
     </div>
     </nav>
 
-    <!-- navbar -->
-
-
-
-
-
-
-
     <!-- Code for products -->
     <div id="code">
       <h1><div class="container" id="products">
@@ -312,14 +304,83 @@
 </div> 
 </h1>
     </div>
+    <div id="code">
+      <h1><div class="container" id="products">
+  <h1 class="text-center">Bracelets</h1>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/bracelets1.jpg" alt="">
+        <div class="card-body">
+          <h3 class="text-center">Ely Bracelets</h3>
+          <p class="text-center">VVS Diamond Quality</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <h2>£869.00 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/bracelets2.jpg" alt="">
+        <div class="card-body">
+          <h3 class="text-center">Aide Bracelet</h3>
+          <p class="text-center">VVS Diamond Quality</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <h2>£1.104.00 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/bracelets3.jpg" alt="">
+        <div class="card-body">
+          <h3 class="text-center">Cariel Bracelets</h3>
+          <p class="text-center">VVS Diamond Quality</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <h2>£2.706.00 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/bracelets4.jpg" alt="">
+        <div class="card-body">
+          <h3 class="text-center">Carlisa Bracelet</h3>
+          <p class="text-center">Diamond Colours</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <h2>£1.750.00 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div> 
+<div id="code">
       
     <!-- Code for products -->
-
-
-
-
-
-
 
 
 
