@@ -82,11 +82,47 @@
             <div class = "product-div">
                 <div class = "product-div-left">
                     <div class = "img-container">
-                        <img src = "" alt = "necklace">
+                        <img src = "./images/neck1.png" alt = "necklace">
                     </div>
                 </div>
                 <div class = "product-div-right">
+                <span class = "product-name">(New) Analog Watch - For Men</span>
+                    <span class = "product-price">$ 50.25</span>
                     <p class = "product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.</p>
+                    
+
+                    <br>
+      <p>Diamond</p>
+      
+    <div class="radio-container">
+        <div>
+      <input type="radio" id="Black Diamond" name="os" />
+      <label for="windows">Black diamond</label>
+</div>
+
+<div>
+      <input type="radio" id="Yellow Diamond" name="os" />
+      <label for="mac">Yellow Diamond</label>
+</div>
+
+        <div>
+      <input type="radio" id="Blue Diamond" name="os" />
+      <label for="linux">Blue Diamond</label>
+</div>
+<div>
+      <input type="radio" id="Green Diamond" name="os" />
+      <label for="linux">Green Diamond</label>
+</div>
+<div>
+      <input type="radio" id="Brown Diamond" name="os" />
+      <label for="linux">Brown Diamond</label>
+</div>
+<div>
+      <input type="radio" id="Lab Grown Diamond" name="os" />
+      <label for="linux">Lab Grown Diamond</label>
+</div>
+    </div>
+
                     <div class = "btn-groups">
                         <button type = "button" class = "add-cart-btn"><i class = "fas fa-shopping-cart"></i>add to cart</button>
                         <button type = "button" class = "buy-now-btn"><i class = "fas fa-wallet"></i>buy now</button>
@@ -94,8 +130,86 @@
                 </div>
             </div>
         </div>
+
+
     </div>
 
+    <!--hot offers-->
+    <br>
+<div class="container" id="hot-offers">
+  <h1 class="text-center">Hot Offers</h1>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/pen1.jpg" alt="">
+        <div class="card-body">
+          <h3 class="text-center">Sterling Silver Love</h3>
+          <p class="text-center"> Was £200</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <h2>Now £100<span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/pen2.jpg" alt="">
+        <div class="card-body">
+          <h3 class="text-center">Angel Wings</h3>
+          <p class="text-center">Was £300</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <h2>Now £150<span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/e1.jpg" alt="">
+        <div class="card-body">
+          <h3 class="text-center">9ct Yellow Gold Leaf </h3>
+          <p class="text-center">Was £100</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <h2>Now £50 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/b2.jpg" alt="">
+        <div class="card-body">
+          <h3 class="text-center">warovski Subtle Bracelet </h3>
+          <p class="text-center">Was £100</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <h2>Now £50 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+        </div>
+      </div>
+    </div>
+  </div>  
+</div>
+    <!--hot offers-->
 
 
 
@@ -165,4 +279,6 @@
 </footer>
 <!-- fotter -->
 
+<script src="./script.js"></script>
 </body>
+</html>
