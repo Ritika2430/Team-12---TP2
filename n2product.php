@@ -82,12 +82,12 @@
             <div class = "product-div">
                 <div class = "product-div-left">
                     <div class = "img-container">
-                        <img src = "./images/neck1.png" alt = "necklace">
+                        <img src = "./images/necklaces2.jpg" alt = "necklace">
                     </div>
                 </div>
                 <div class = "product-div-right">
-                <span class = "product-name">Cassandra Pendant</span>
-                    <span class = "product-price">£300.00</span>
+                <span class = "product-name">Olga Pendant Necklace</span>
+                    <span class = "product-price">£260.00</span>
                     <p class = "product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.</p>
                     
 
