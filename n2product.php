@@ -82,7 +82,7 @@
             <div class = "product-div">
                 <div class = "product-div-left">
                     <div class = "img-container">
-                        <img src = "./images/necklaces1.jpg" alt = "necklace">
+                        <img src = "./images/neck1.png" alt = "necklace">
                     </div>
                 </div>
                 <div class = "product-div-right">

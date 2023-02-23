@@ -1212,6 +1212,6 @@ html{
   input[type="radio"]:checked + label::after {
     background: rgba(34, 34, 34, 1);
   }
-  a{
+  .row .col-md-3 a{
     text-decoration: none;
   }
