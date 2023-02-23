@@ -253,9 +253,8 @@
     margin: auto;
     
    
-
-   
 }
+
 .carousel__image{
     width: 100%;
     object-fit: cover;
@@ -263,8 +262,9 @@
 }
 
 .carousel__track-container{
+    
     background: white;
-    height: 85vh;
+    height: 99vh;
     position: relative;
     overflow: hidden;
  
@@ -313,27 +313,10 @@
     background: rgba(0, 0, 0, .75) ;
 }
 
-@media screen and (max-width:1200px) {
-    .carousel__track-container{
-        height: 60vh;
-    }
-    
-}
-@media screen and (max-width:950px) {
-    .carousel__track-container{
-        height: 40vh;
-    }
-    
-}
-@media screen and (max-width:620px) {
-    .carousel__track-container{
-        height: 25vh;
-    }
-    
-}
-@media screen and (max-width:320px) {
-    .carousel__track-container{
-        height: 15vh;
+@media screen and (max-width: 899px) {
+    .carousel__track-container
+    {
+        height: 90vh;
     }
     
 }
@@ -346,7 +329,7 @@
 
 /* products */
 #products{
-    margin-top: 650px;
+    margin-top: 100px;
 }
 
 #products h1{
