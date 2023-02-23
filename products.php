@@ -310,7 +310,7 @@
   <div class="row" style="margin-top: 30px;">
     <div class="col-md-3 py-3 py-md-0">
       <div class="card">
-        <img src="./images/bracelets1.jpg" alt="">
+        <img src="./Product page images/bracelets1.jpg" alt="">
         <div class="card-body">
           <h3 class="text-center">Ely Bracelets</h3>
           <p class="text-center">VVS Diamond Quality</p>
@@ -327,7 +327,7 @@
     </div>
     <div class="col-md-3 py-3 py-md-0">
       <div class="card">
-        <img src="./images/bracelets2.jpg" alt="">
+        <img src="./Product page images/bracelets2.jpg" alt="">
         <div class="card-body">
           <h3 class="text-center">Aide Bracelet</h3>
           <p class="text-center">VVS Diamond Quality</p>
@@ -344,7 +344,7 @@
     </div>
     <div class="col-md-3 py-3 py-md-0">
       <div class="card">
-        <img src="./images/bracelets3.jpg" alt="">
+        <img src="./Product page images/bracelets3.jpg" alt="">
         <div class="card-body">
           <h3 class="text-center">Cariel Bracelets</h3>
           <p class="text-center">VVS Diamond Quality</p>
@@ -361,7 +361,7 @@
     </div>
     <div class="col-md-3 py-3 py-md-0">
       <div class="card">
-        <img src="./images/bracelets4.jpg" alt="">
+        <img src="./Product page images/bracelets4.jpg" alt="">
         <div class="card-body">
           <h3 class="text-center">Carlisa Bracelet</h3>
           <p class="text-center">Diamond Colours</p>
