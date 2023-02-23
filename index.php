@@ -107,6 +107,33 @@
 <!-- banner -->
  
 
+<!-- landing page Carousel -->
+
+<div class="carousel">
+
+    <div class="carousel__track-container">
+      <ul class="carousel__track">
+        <li class="carousel__slide current-slide">
+          <img class="carousel__image" src="./images/carousel3.jpg" alt="">
+        </li>
+        <li class="carousel__slide">
+          <img class="carousel__image" src="./images/carousel2.jpg" alt="">
+        </li>
+        <li class="carousel__slide">
+          <img class="carousel__image" src="./images/carousel4.jpg" alt="">
+        </li>
+      </ul>
+    </div>
+
+    <div class="carousel__nav">
+      <button class="carousel__indicator current-slide"></button>
+      <button class="carousel__indicator"></button>
+      <button class="carousel__indicator"></button>
+    </div>
+  </div>
+
+<!-- landing page Carousel -->
+
 
 <!-- products -->
 <div class="container" id="products">
