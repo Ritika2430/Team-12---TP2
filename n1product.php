@@ -86,8 +86,8 @@
                     </div>
                 </div>
                 <div class = "product-div-right">
-                <span class = "product-name">(New) Analog Watch - For Men</span>
-                    <span class = "product-price">$ 50.25</span>
+                <span class = "product-name">Cassandra Pendant</span>
+                    <span class = "product-price">£300.00</span>
                     <p class = "product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.</p>
                     
 
@@ -97,29 +97,29 @@
     <div class="radio-container">
         <div>
       <input type="radio" id="Black Diamond" name="os" />
-      <label for="windows">Black diamond</label>
+      <label for="Black Diamond">Black diamond</label>
 </div>
 
 <div>
       <input type="radio" id="Yellow Diamond" name="os" />
-      <label for="mac">Yellow Diamond</label>
+      <label for="Yellow Diamond">Yellow Diamond</label>
 </div>
 
         <div>
       <input type="radio" id="Blue Diamond" name="os" />
-      <label for="linux">Blue Diamond</label>
+      <label for="Blue Diamond">Blue Diamond</label>
 </div>
 <div>
       <input type="radio" id="Green Diamond" name="os" />
-      <label for="linux">Green Diamond</label>
+      <label for="Green Diamond">Green Diamond</label>
 </div>
 <div>
       <input type="radio" id="Brown Diamond" name="os" />
-      <label for="linux">Brown Diamond</label>
+      <label for="Brown Diamond">Brown Diamond</label>
 </div>
 <div>
       <input type="radio" id="Lab Grown Diamond" name="os" />
-      <label for="linux">Lab Grown Diamond</label>
+      <label for="Lab Grown Diamond">Lab Grown Diamond</label>
 </div>
     </div>
 
@@ -279,6 +279,5 @@
 </footer>
 <!-- fotter -->
 
-<script src="./script.js"></script>
 </body>
 </html>

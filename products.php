@@ -93,7 +93,7 @@
   <h1 class="text-center">Necklaces</h1>
   <div class="row" style="margin-top: 30px;">
     <div class="col-md-3 py-3 py-md-0">
-      <div class="card">
+      <a href="n1product.php"><div class="card">
         <img src="./images/necklaces1.jpg" alt="">
         <div class="card-body">
           <h3 class="text-center">Cassandra Pendant</h3>
@@ -107,7 +107,7 @@
           </div>
           <h2>£300.00 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
         </div>
-      </div>
+      </div></a>
     </div>
     <div class="col-md-3 py-3 py-md-0">
       <div class="card">

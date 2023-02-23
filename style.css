@@ -1065,3 +1065,153 @@ html{
 /* CSS code for contact page */
 
 
+/*CSS code for product detail*/
+
+.main-wrapper{
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 px;
+    margin: 0 auto;
+}
+.product-div{
+    margin: 1rem 0;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #fff;
+    border-radius: 3px;
+    column-gap: 10px;
+}
+.product-div-left{
+    padding: 20px;
+}
+.product-div-right{
+    padding: 20px;
+}
+
+.product-div-right span{
+    display: block;
+    margin-top: 30px;
+
+}
+
+.img-container img{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.product-name{
+    font-size: 26px;
+    margin-bottom: 22px;
+    font-weight: 700;
+    
+}
+.product-price{
+    font-weight: 700;
+    font-size: 24px;
+    opacity: 0.9;
+    font-weight: 500;
+}
+.product-description{
+    font-weight: 18px;
+    line-height: 1.6;
+    font-weight: 300;
+    opacity: 0.9;
+    margin-top: 22px;
+    
+}
+.btn-groups{
+    margin-top: 22px;
+}
+.btn-groups button{
+    display: inline-block;
+    font-size: 16px;
+    font-family: inherit;
+    text-transform: uppercase;
+    padding: 15px 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn-groups button .fas{
+    margin-right: 8px;
+}
+.add-cart-btn{
+    background-color: rgb(67 0 86);
+    border: 2px solid rgb(67 0 86);
+    margin-right: 8px;
+}
+.add-cart-btn:hover{
+    background-color: #fff;
+    color: rgb(67 0 86);
+}
+.buy-now-btn{
+    background-color: #000;
+    border: 2px solid #000;
+}
+.buy-now-btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.radio-container {
+    font-size: 24px;
+    padding: 8px;
+    background-color:#f7f7f7 ;
+    border-radius: 2.5%;
+   
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    position: relative;
+    cursor: pointer;
+    padding-right: 32px;
+    font-size: 15px;
+    
+  }
+  label:hover{
+    color: purple;
+  }
+  
+ 
+  label::before {
+    content: "";
+    border: 2px solid #222;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: -8px 20px;
+    margin-left: 0;
+    border-radius: 50%;
+  }
+  
+  label::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgba(34, 34, 34, 0);
+    left: 5px;
+    top: 9px;
+    border-radius: 50%;
+  
+    transition: all 0.4s;
+  }
+  
+  input[type="radio"]:checked + label::after {
+    background: rgba(34, 34, 34, 1);
+  }
+  a{
+    text-decoration: none;
+  }
