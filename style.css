@@ -1185,8 +1185,8 @@ html{
     width: 10px;
     height: 10px;
     background: rgba(34, 34, 34, 0);
-    left: 5px;
-    top: 9px;
+    left: 4.95px;
+    top: 10px;
     border-radius: 50%;
   
     transition: all 0.4s;
