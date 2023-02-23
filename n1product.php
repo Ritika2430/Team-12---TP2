@@ -21,3 +21,148 @@
 
     <!--Font links-->
 </head>
+<body>
+    <!-- navbar -->
+ <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container-fluid">
+    <img src="./images/logo.png" alt="" width="70px">
+    <a class="navbar-brand" href="index.php" id="logo"><span id="span1"></span>White Lily<span> Jewellery Shop</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span> <img src="./images/menu.png" alt="" width="30px"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.php">Product</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Category
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(67, 0, 86);">
+            <li><a class="dropdown-item" href="#">Necklaces</a></li>
+            <li><a class="dropdown-item" href="#">Rings</a></li>
+            <li><a class="dropdown-item" href="#">Chains</a></li>
+            <li><a class="dropdown-item" href="#">Bracelets</a></li>
+            <li><a class="dropdown-item" href="#">Pendants</a></li>
+            <li><a class="dropdown-item" href="#">Earrings</a></li>
+            <li><a class="dropdown-item" href="#">Latest Products</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.php">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.php">Contact</a>
+        </li>
+      </ul>
+      <div class="top-navbar">
+      <p></p>
+        <div class="icons">
+
+            <a href="login.php"><img src="./images/login.png" alt="" width="37px">Login</a>
+            <a href="login.php"><img src="./images/basket.png" alt="" width="37px">Basket</a>
+        </div>
+
+    </div>
+      <form class="d-flex" id="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+    </div>
+ </nav>
+    <!-- navbar -->
+
+    <div class = "main-wrapper">
+        <div class = "container">
+            <div class = "product-div">
+                <div class = "product-div-left">
+                    <div class = "img-container">
+                        <img src = "" alt = "necklace">
+                    </div>
+                </div>
+                <div class = "product-div-right">
+                    <p class = "product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.</p>
+                    <div class = "btn-groups">
+                        <button type = "button" class = "add-cart-btn"><i class = "fas fa-shopping-cart"></i>add to cart</button>
+                        <button type = "button" class = "buy-now-btn"><i class = "fas fa-wallet"></i>buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    
+<!-- footer -->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>Lily Jewellery Shop</h4>
+          <p>
+            Birmingham <br>
+            Coventry <br>
+            London <br>
+          </p>
+          <strong>Phone:</strong> +44-7383588080 <br>
+          <strong>Email:</strong> Lily-Jewellery@gmail.com <br>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Usefull Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Necklaces</a></li>
+            <li><a href="#">Rings</a></li>
+            <li><a href="#">Chains</a></li>
+            <li><a href="#">Bracelets</a></li>
+            <li><a href="#">Pendants</a></li>
+            <li><a href="#">Earrings</a></li>
+            <li><a href="#">Watches</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Our Social Networks</h4>
+          <p>Please follow us on Social Media</p>
+          <div class="social-links mt-3">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container py-4">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Lily Jewellery Shop</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      Designed by:  <a href="#"> Team Number 12 (Aston University, Birmingham) </a>
+    </div>
+
+  </div>
+</footer>
+<!-- fotter -->
+
+</body>
