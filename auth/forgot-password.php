@@ -4,9 +4,9 @@
     <head>
         <title>Login</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="/style.css?<?=time()?>">
+        <link rel="stylesheet" href="/auth-style.css?<?=time()?>">
     </head>
-    <body>
+    <body class="auth-body">
         <div class="container">
             <div class="row-1-col-1">
             </div>
@@ -14,8 +14,8 @@
             </div>
             <div class="row-1-col-3">
             </div>
-            <div class="row-2">
-                <form method="post" action="forgot-password.php">
+            <div class="row-2" class="auth-div">
+                <form method="post" action="forgot-password.php" class="auth-form">
                     <label>Email address</label>
                     <input type="text" id="forgot-email" name="email" required>
                     <input type="submit" id="forgot-button" name="submit" value="Send link to email">

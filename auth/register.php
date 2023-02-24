@@ -4,9 +4,9 @@
     <head>
         <title>Register</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="/style.css?<?=time()?>">
+        <link rel="stylesheet" href="/auth-style.css?<?=time()?>">
     </head>
-    <body>
+    <body class="auth-body">
         <?php
             error_reporting(E_ALL);
             ini_set('display_errors', 1);
@@ -131,8 +131,8 @@
             </div>
             <div class="row-1-col-3">
             </div>
-            <div class="row-2">
-                <form method="post" action="register.php">
+            <div class="row-2" class="auth-div">
+                <form method="post" action="register.php" class="auth-form">
                     <label>Forename</label>
                     <input type="text" id="register-forename" name="forename" <?php if(isset($_SESSION['register']['forename'])) echo ' value="' . $_SESSION['register']['forename'] . '" '; ?> required>
                     <?php 

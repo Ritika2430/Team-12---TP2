@@ -4,16 +4,16 @@
     <head>
         <title>Login</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="/style.css?<?=time()?>">
+        <link rel="stylesheet" href="/auth-style.css?<?=time()?>">
     </head>
-    <body>
+    <body class="auth-body">
         <?php
             ini_set('display_errors', 1);
             ini_set('display_startup_errors', 1);
             error_reporting(E_ALL);
             if(isset($_POST['id']) && isset($_POST['password']))
             {
-                require_once($_SERVER['DOCUMENT_ROOT'] . '/shared-files/db.php');
+                require_once($_SERVER['DOCUMENT_ROOT'] . '/auth/scripts/db.php');
 
                 $id_type= str_contains($_POST['id'], '@');
                 $query = 'SELECT * FROM users WHERE ' . ($id_type ? 'email' : 'username') . '=:id';
@@ -57,8 +57,8 @@
             </div>
             <div class="row-1-col-3">
             </div>
-            <div class="row-2">
-                <form method="post" action="login.php">
+            <div class="row-2" class="auth-div">
+                <form method="post" action="login.php" class="auth-form>
                     <label>Username or email</label>
                     <input type="text" id="login-id" name="id" required>
                     <label>Password</label>
@@ -83,4 +83,5 @@
         </div>
     </body>
 </html>
+
 

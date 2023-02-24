@@ -4,18 +4,18 @@
     <head>
         <title>Login</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="/style.css?<?=time()?>">
+        <link rel="stylesheet" href="/auth-style.css?<?=time()?>">
     </head>
-    <body>
-        <div class="container">
-            <div class="row-1-col-1">
+    <body class="auth-body">
+        <div class="container" class="auth-div">
+            <div class="row-1-col-1" class="auth-div">
             </div>
-            <div class="row-1-col-2">
+            <div class="row-1-col-2" class="auth-div">
             </div>
-            <div class="row-1-col-3">
+            <div class="row-1-col-3" class="auth-div">
             </div>
-            <div class="row-2">
-                <form method="post" action="change-password.php">
+            <div class="row-2" class="auth-div">
+                <form method="post" action="change-password.php" class="auth-form">
                     <label>New password</label>
                     <input type="password" id="change-password" name="password" required>
                     <input type="submit" id="change-button" name="submit" value="Reset password">
@@ -34,7 +34,7 @@
                     ?>
                 </form>
             </div>
-            <div class="row-3">
+            <div class="row-3" class="auth-div">
             </div>
         </div>
     </body>
