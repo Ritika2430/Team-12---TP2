@@ -82,12 +82,12 @@
             <div class = "product-div">
                 <div class = "product-div-left">
                     <div class = "img-container">
-                        <img src = "./images/necklaces3.jpg" alt = "necklace">
+                        <img src = "./images/rings2.jpg" alt = "Autya Ring">
                     </div>
                 </div>
                 <div class = "product-div-right">
-                <span class = "product-name">Adela necklace</span>
-                    <span class = "product-price">£1,200.00</span>
+                <span class = "product-name">Autya Ring</span>
+                    <span class = "product-price">1,529.00</span>
                     <p class = "product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.</p>
                     
 

@@ -210,7 +210,7 @@
       </div>
     </div>
     <div class="col-md-3 py-3 py-md-0">
-      <div class="card">
+    <a href="r4product.php"><div class="card">
         <img src="./images/rings4.jpg" alt="">
         <div class="card-body">
           <h3 class="text-center">Esme Ring</h3>
@@ -226,7 +226,7 @@
         </div>
       </div>
     </div>
-  </div> 
+  </div></a>
 </div> 
 <div id="code">
       <h1><div class="container" id="products">

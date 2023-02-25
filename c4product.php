@@ -82,46 +82,14 @@
             <div class = "product-div">
                 <div class = "product-div-left">
                     <div class = "img-container">
-                        <img src = "./images/necklaces3.jpg" alt = "necklace">
+                        <img src = "./images/rings4.jpg" alt = "ring">
                     </div>
                 </div>
                 <div class = "product-div-right">
-                <span class = "product-name">Adela necklace</span>
-                    <span class = "product-price">£1,200.00</span>
+                <span class = "product-name">Navis Chain</span>
+                    <span class = "product-price">£550.00</span>
                     <p class = "product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.</p>
                     
-
-                    <br>
-      <p>Diamond</p>
-      
-    <div class="radio-container">
-        <div>
-      <input type="radio" id="Black Diamond" name="os" />
-      <label for="Black Diamond">Black diamond</label>
-</div>
-
-<div>
-      <input type="radio" id="Yellow Diamond" name="os" />
-      <label for="Yellow Diamond">Yellow Diamond</label>
-</div>
-
-        <div>
-      <input type="radio" id="Blue Diamond" name="os" />
-      <label for="Blue Diamond">Blue Diamond</label>
-</div>
-<div>
-      <input type="radio" id="Green Diamond" name="os" />
-      <label for="Green Diamond">Green Diamond</label>
-</div>
-<div>
-      <input type="radio" id="Brown Diamond" name="os" />
-      <label for="Brown Diamond">Brown Diamond</label>
-</div>
-<div>
-      <input type="radio" id="Lab Grown Diamond" name="os" />
-      <label for="Lab Grown Diamond">Lab Grown Diamond</label>
-</div>
-    </div>
 
                     <div class = "btn-groups">
                         <button type = "button" class = "add-cart-btn"><i class = "fas fa-shopping-cart"></i>add to cart</button>
