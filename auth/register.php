@@ -1,12 +1,90 @@
 <?php session_start(); $_SESSION['validation'] = 0; ?>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Register</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="/auth-style.css?<?=time()?>">
-    </head>
-    <body class="auth-body">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an account</title>
+    <link rel="icon" type="image/x-icon" href="./images/Lily.png">
+     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="/auth/auth-style.css">
+    <!--bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--bootstrap links --> 
+    <!--Font links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet"> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet"> 
+    <!--Font links-->
+
+
+</head>
+<body>
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container-fluid">
+    <img src="./images/logo.png" alt="" width="70px">
+    <a class="navbar-brand" href="index.php" id="logo"> <span id="span1"></span>White Lily<span> Jewellery Shop</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span> <img src="./images/menu.png" alt="" width="30px"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.php">Product</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Category
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(67, 0, 86);">
+            <li><a class="dropdown-item" href="#">Necklaces</a></li>
+            <li><a class="dropdown-item" href="#">Rings</a></li>
+            <li><a class="dropdown-item" href="#">Chains</a></li>
+            <li><a class="dropdown-item" href="#">Bracelets</a></li>
+            <li><a class="dropdown-item" href="#">Pendants</a></li>
+            <li><a class="dropdown-item" href="#">Earrings</a></li>
+       
+           
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.php">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.php">Contact</a>
+        </li>
+      </ul>
+      <div class="top-navbar">
+    <p></p>
+        <div class="icons">
+
+            <a href="login.php"><img src="./images/login.png" alt="" width="37px">Login</a>
+        </div>
+
+    </div>
+      <form class="d-flex" id="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+    </div>
+    </nav>
+
+    <!-- navbar -->
+
+
+    <!-- Code for contact page -->
+    <div id="code">
         <?php
             error_reporting(E_ALL);
             ini_set('display_errors', 1);
@@ -119,34 +197,28 @@
                     $sth->execute();
 
                     /* Stage 3: Initiate email verification process */
-                    echo 'Send this URL to client: http://localhost/auth/verify.php?username='.$_POST['username'].'&verify='.$verification_token;
-                    header('Location: /auth/verify.php');
+                    echo 'Send this URL to client: http://localhost/auth/scripts/verify.php?username='.$_POST['username'].'&verify='.$verification_token;
+                    header('Location: /auth/scripts/verify.php');
                 }
             }
         ?>
-        <div class="container">
-            <div class="row-1-col-1">
-            </div>
-            <div class="row-1-col-2">
-            </div>
-            <div class="row-1-col-3">
-            </div>
-            <div class="row-2" class="auth-div">
+        <div class="auth-container">
+            <div class="auth-div">
                 <form method="post" action="register.php" class="auth-form">
                     <label>Forename</label>
-                    <input type="text" id="register-forename" name="forename" <?php if(isset($_SESSION['register']['forename'])) echo ' value="' . $_SESSION['register']['forename'] . '" '; ?> required>
+                    <input type="text" id="register-forename" name="forename" <?php if(isset($_SESSION['register']['forename'])) echo ' value="' . $_SESSION['register']['forename'] . '" '; ?> class="auth-input" required>
                     <?php 
                         if($_SESSION['validation'] && $_SESSION['validation'] & Validation::forename)
                             echo "<pre><em>Must contain alphabetic characters only.</em></pre>";
                     ?>
                     <label>Surname</label>
-                    <input type="text" id="register-surname" name="surname" <?php if(isset($_SESSION['register']['surname'])) echo ' value="' . $_SESSION['register']['surname'] . '" '; ?>required>
+                    <input type="text" id="register-surname" name="surname" <?php if(isset($_SESSION['register']['surname'])) echo ' value="' . $_SESSION['register']['surname'] . '" '; ?> class="auth-input" required>
                     <?php 
                         if($_SESSION['validation'] && $_SESSION['validation'] & Validation::surname)
                             echo "<pre><em>Must contain alphabetic characters only.</em></pre>";
                     ?>
                     <label>Username</label>
-                    <input type="text" id="register-username" name="username" <?php if(isset($_SESSION['register']['username'])) echo ' value="' . $_SESSION['register']['username'] . '" '; ?>required>
+                    <input type="text" id="register-username" name="username" <?php if(isset($_SESSION['register']['username'])) echo ' value="' . $_SESSION['register']['username'] . '" '; ?>  class="auth-input" required>
                     <?php 
                         if($_SESSION['validation'] && $_SESSION['validation'] & Validation::username_taken)
                             echo "<pre><em>This username is already taken.</em></pre>";
@@ -156,7 +228,7 @@
                             echo "<pre><em>Must contain alphanumeric characters only.</em></pre>";
                     ?>
                     <label>Email</label>
-                    <input type="text" id="register-email" name="email" <?php if(isset($_SESSION['register']['email'])) echo ' value="' . $_SESSION['register']['email'] . '" '; ?>required>
+                    <input type="text" id="register-email" name="email" <?php if(isset($_SESSION['register']['email'])) echo ' value="' . $_SESSION['register']['email'] . '" '; ?> class="auth-input" required>
                     <?php
                         if($_SESSION['validation'] && $_SESSION['validation'] & Validation::email_taken)
                             echo "<pre><em>This email address is already associated with an account.</em></pre>";
@@ -164,7 +236,7 @@
                             echo "<pre><em>This is not a valid email address.</em></pre>";
                     ?>
                     <label>Password</label>
-                    <input type="password" id="login-pass" name="password" <?php if(isset($_SESSION['register']['password'])) echo ' value="' . $_SESSION['register']['password'] . '" '; ?>required>
+                    <input type="password" id="login-pass" name="password" <?php if(isset($_SESSION['register']['password'])) echo ' value="' . $_SESSION['register']['password'] . '" '; ?> class="auth-input" required>
                     <?php
                         if($_SESSION['validation'] && $_SESSION['validation'] & Validation::password_len)
                             echo "<pre><em>Must be 8 or more characters.</em></pre>";
@@ -175,13 +247,78 @@
                         if($_SESSION['validation'] && $_SESSION['validation'] & Validation::password_lower)
                             echo "<pre><em>Must contain at least one lowercase character.</em></pre>";
                     ?>
-                    <input type="submit" id="register-button" value="Register">
+                    <input type="submit" id="register-button" class="auth-input" value="Register">
                     <p>Already have a login and password? <a href="/auth/login.php">Sign in</a></p>
                 </form>
             </div>
-            <div class="row-3">
-            </div>
         </div>
-    </body>
-</html>
+    </div>
+     <!-- Code for contact page -->
 
+
+
+<!-- footer -->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>Lily Jewellery Shop</h4>
+          <p>
+            Birmingham <br>
+            Coventry <br>
+            London <br>
+          </p>
+          <strong>Phone:</strong> +44-7383588080 <br>
+          <strong>Email:</strong> Lily-Jewellery@gmail.com <br>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Usefull Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Necklaces</a></li>
+            <li><a href="#">Rings</a></li>
+            <li><a href="#">Chains</a></li>
+            <li><a href="#">Bracelets</a></li>
+            <li><a href="#">Pendants</a></li>
+            <li><a href="#">Earrings</a></li>
+            <li><a href="#">Watches</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Our Social Networks</h4>
+          <p>Please follow us on Social Media</p>
+          <div class="social-links mt-3">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container py-4">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Lily Jewellery Shop</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      Designed by:  <a href="#"> Team Number 12 (Aston University, Birmingham)</a>
+    </div>
+
+  </div>
+</footer>
+<!-- fotter -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
