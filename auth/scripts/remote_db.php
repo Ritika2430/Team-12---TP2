@@ -1,8 +1,8 @@
 <?php
-    $dbname     = "cs2tp";
+    $dbname     = "u_200219998_db";
     $servername = "localhost";
-    $username   = "root";
-    $password   = "";
+    $username   = "u-200219998";
+    $password   = "eQkPde3XGHj3Rxr";
     try {
         $db = new PDO("mysql:dbname=$dbname;host=$servername;", $username, $password);
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

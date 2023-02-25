@@ -88,6 +88,7 @@
         <div class="auth-container">
             <div class="auth-div">
                 <form method="post" action="change-password.php" class="auth-form">
+                    <h2>CHANGE PASSWORD</h2>
                     <label>New password</label>
                     <input type="password" id="change-password" name="password" required>
                     <input type="submit" id="change-button" name="submit" value="Reset password">

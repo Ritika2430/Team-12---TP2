@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,9 +66,9 @@
       <div class="top-navbar">
       <p></p>
         <div class="icons">
-
-            <a href="login.php"><img src="./images/login.png" alt="" width="37px">Login</a>
-            <a href="login.php"><img src="./images/basket.png" alt="" width="37px">Basket</a>
+            <?php $link1 = (isset($_SESSION['auth']) ? "account" : "login"); $link2 = (isset($_SESSION['auth']) ? "logout" : "basket"); ?>
+            <a href="<?=$link1.".php"?>"><img src="./images/<?=$link1.".png"?>" alt="" width="37px"><?=ucfirst($link1)?></a>
+            <a href="<?=$link2.".php"?>"><img src="./images/<?=$link2.".png"?>" alt="" width="37px"><?=ucfirst($link2)?></a>
         </div>
 
     </div>

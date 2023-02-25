@@ -88,6 +88,7 @@
         <div class="auth-container">
             <div class="auth-div">
                 <form method="post" action="forgot-password.php" class="auth-form">
+                    <h2>FORGOT PASSWORD</h2>
                     <label>Email address</label>
                     <input type="text" id="forgot-email" name="email" class="auth-input" required>
                     <input type="submit" id="forgot-button" name="submit" class="auth-input" value="Send link to email">

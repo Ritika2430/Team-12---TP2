@@ -205,6 +205,7 @@
         <div class="auth-container">
             <div class="auth-div">
                 <form method="post" action="register.php" class="auth-form">
+                    <h2>REGISTER</h2>
                     <label>Forename</label>
                     <input type="text" id="register-forename" name="forename" <?php if(isset($_SESSION['register']['forename'])) echo ' value="' . $_SESSION['register']['forename'] . '" '; ?> class="auth-input" required>
                     <?php 
