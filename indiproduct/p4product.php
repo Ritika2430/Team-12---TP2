@@ -82,12 +82,12 @@
             <div class = "product-div">
                 <div class = "product-div-left">
                     <div class = "img-container">
-                        <img src = "./images/rings4.jpg" alt = "ring">
+                        <img src = "./Product page images/pendants4.jpg" alt = "ring">
                     </div>
                 </div>
                 <div class = "product-div-right">
-                <span class = "product-name">Paperclip Maron Chain</span>
-                    <span class = "product-price">£910.00</span>
+                <span class = "product-name">Roher Pendant</span>
+                    <span class = "product-price">£1,241.00</span>
                     <p class = "product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.</p>
                     
 

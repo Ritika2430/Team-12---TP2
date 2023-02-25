@@ -82,14 +82,66 @@
             <div class = "product-div">
                 <div class = "product-div-left">
                     <div class = "img-container">
-                        <img src = "./images/rings4.jpg" alt = "ring">
+                        <img src = "./Product page images/bracelets1.jpg" alt = "ring">
                     </div>
                 </div>
                 <div class = "product-div-right">
-                <span class = "product-name">Navis Chain</span>
-                    <span class = "product-price">£550.00</span>
+                <span class = "product-name">Ely Bracelets</span>
+                    <span class = "product-price">£2,623.00</span>
                     <p class = "product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.</p>
                     
+
+                    <br>
+      <p>Diamond</p>
+      
+    <div class="radio-container">
+        <div>
+      <input type="radio" id="Diamond" name="os" />
+      <label for="Diamond"> Diamond</label>
+</div>
+<div>
+      <input type="radio" id="Black Diamond" name="os" />
+      <label for="Black Diamond"> Black Diamond</label>
+</div>
+
+</div>
+<br>
+<p>Stones</p>
+<div class="radio-container">
+<div>
+      <input type="radio" id="Ruby" name="os" />
+      <label for="Ruby">Ruby</label>
+</div>
+<div>
+      <input type="radio" id="Sapphire" name="os" />
+      <label for="Sapphire">Sapphire</label>
+</div>
+<div>
+      <input type="radio" id="Emerald" name="os" />
+      <label for="Emerald">Emerald</label>
+</div>
+    </div>
+
+    <br>
+<p>Swaroski Crystal</p>
+<div class="radio-container">
+<div>
+      <input type="radio" id="Swaroski Crystal" name="os" />
+      <label for="Swaroski Crystal">Swaroski Crystal</label>
+</div>
+<div>
+      <input type="radio" id="Swaroski Green" name="os" />
+      <label for="Swaroski Green">Swaroski Crystal</label>
+</div>
+<div>
+      <input type="radio" id="Swaroski Blue" name="os" />
+      <label for="Swaroski Blue">Swaroski Blue</label>
+</div>
+<div>
+      <input type="radio" id="Swaroski Red" name="os" />
+      <label for="Swaroski Red">Swaroski Red</label>
+</div>
+</div>
 
                     <div class = "btn-groups">
                         <button type = "button" class = "add-cart-btn"><i class = "fas fa-shopping-cart"></i>add to cart</button>
