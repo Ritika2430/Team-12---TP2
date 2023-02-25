@@ -82,12 +82,12 @@
             <div class = "product-div">
                 <div class = "product-div-left">
                     <div class = "img-container">
-                        <img src = "./images/necklaces1.jpg" alt = "necklace">
+                        <img src = "./images/necklaces2.jpg" alt = "necklace">
                     </div>
                 </div>
                 <div class = "product-div-right">
-                <span class = "product-name">Cassandra Pendant</span>
-                    <span class = "product-price">£300.00</span>
+                <span class = "product-name">Olga Pendant Necklace</span>
+                    <span class = "product-price">£260.00</span>
                     <p class = "product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.</p>
                     
 
@@ -96,30 +96,43 @@
       
     <div class="radio-container">
         <div>
-      <input type="radio" id="Black Diamond" name="os" />
-      <label for="Black Diamond">Black diamond</label>
+      <input type="radio" id="Diamond" name="os" />
+      <label for="Diamond"> Diamond</label>
 </div>
 
 <div>
       <input type="radio" id="Yellow Diamond" name="os" />
       <label for="Yellow Diamond">Yellow Diamond</label>
 </div>
+</div>
+<br>
+<p>Stones</p>
+<div class="radio-container">
 
         <div>
-      <input type="radio" id="Blue Diamond" name="os" />
-      <label for="Blue Diamond">Blue Diamond</label>
+      <input type="radio" id="Emerald" name="os" />
+      <label for="Emerald">Emerald</label>
 </div>
 <div>
-      <input type="radio" id="Green Diamond" name="os" />
-      <label for="Green Diamond">Green Diamond</label>
+      <input type="radio" id="Ruby" name="os" />
+      <label for="Ruby">Ruby</label>
 </div>
 <div>
-      <input type="radio" id="Brown Diamond" name="os" />
-      <label for="Brown Diamond">Brown Diamond</label>
+      <input type="radio" id="Sapphire" name="os" />
+      <label for="Sapphire">Sapphire</label>
 </div>
 <div>
-      <input type="radio" id="Lab Grown Diamond" name="os" />
-      <label for="Lab Grown Diamond">Lab Grown Diamond</label>
+      <input type="radio" id="White sapphire" name="os" />
+      <label for="White sapphire">White sapphire</label>
+</div>
+
+<div>
+      <input type="radio" id="Yellow sapphire" name="os" />
+      <label for="Yellow sapphire">Yellow sapphire</label>
+</div>
+<div>
+      <input type="radio" id="Black sapphire" name="os" />
+      <label for="Black sapphire">Black sapphire</label>
 </div>
     </div>
 
