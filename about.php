@@ -83,11 +83,54 @@
     <!-- navbar -->
 
     <!-- Code for about us page -->
-    <div id="code">
-      <h1>Please add your code here</h1>
-    </div>
-    <!-- Code for about us page -->
 
+
+
+    
+	<title>About Us</title>
+	<style>
+		body {
+			background-image: url("images/background\ gif1.gif");
+      background-size: 100%;
+			color: #333;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			margin: 0 auto;
+			max-width: 960px;
+			padding: 20px;
+		}
+		h1 {
+			font-size: 48px;
+			margin-bottom: 20px;
+      text-align: center;
+      color: black;
+		}
+		p {
+			font-size: 20px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+      color: black;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>About Us</h1>
+		<p>Welcome to WhiteLily Jewellery Shop! We are a team of passionate individuals who believe that accessories are the perfect way to elevate any outfit and express your personal style. Our goal is to provide you with a unique collection of high-quality accessories that are both fashionable and functional.</p>
+		<p>At our Accessories page, we strive to create a shopping experience that is easy, enjoyable, and stress-free. Our team has carefully selected each item to ensure that it meets our standards for quality and style. We believe that accessories should be affordable and accessible to everyone, so we offer a range of price points to fit any budget.</p>
+    <p>Thank you for visiting our page, and we hope that you find something that inspires you to express your unique style. If you have any questions or feedback, please do not hesitate to contact us.</p>
+	</div>
+</body>
+
+
+
+
+
+    <!-- Code for about us page -->
+    
 
 
 
